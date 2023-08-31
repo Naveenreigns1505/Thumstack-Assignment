@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.nav-container {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+}
+
+.em {
+  margin-left: 10px;
+  color: white;
+}
+
+.tele {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+.tw {
+  color: white;
+}
+.con {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.ig {
+  width: 100px;
+  height: 50px;
+  background-color: black;
+}
+.navb {
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.nav-link {
+  color: white;
+}
+
+h2 {
+  font-family: "Lato, Sans Serif";
+}
+h1 {
+  font-family: "PT Sans Narrow, Sans Serif";
+}
+.our-background-image {
+  background-size: cover;
+  height: 100px;
+}
+.story-background {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://gdurl.com/LmTV");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+.m {
+  font-size: 100px;
+  text-align: center;
+  margin-left: 200px;
+}
+.in-cont {
+  display: flex;
+  flex-direction: row;
+}
+.story-para {
+  font-size: 10px;
+}
+.story-head {
+  font-family: "PT Sans Narrow, Sans Serif";
+  font-size: 40px;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+.sign {
+  height: 20px;
+  width: 50px;
+}
+.sp-pac-container {
+  background-image: url("https://img.freepik.com/free-photo/top-view-tasty-meat-meal-rolled-with-cabbage-tomatoes-called-dolma-with-seasonings-dark-blue-desk_140725-58511.jpg?w=900&t=st=1693485747~exp=1693486347~hmac=d0f3e7bbcb3835eb916841596f39b351a4da499d563c26cbeeb353f3b708482d");
+  /* filter: blur(8px); */
+  /* Full height */
+  /* -webkit-filter: blur(8px); */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sp-pac {
+  color: red;
+  font-family: "PT Sans Narrow";
+  font-size: 30px;
+  margin-left: 100px;
+  text-align: center;
+  filter: none;
+  margin-top: 10px;
+}
+
+.sp-img {
+  text-align: center;
+  filter: none;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+.bg-text {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.menu-text {
+  color: red;
+  font-family: "PT Sans Narrow";
+  font-size: 30px;
+  margin-left: 80px;
+  text-align: center;
+  filter: none;
+  margin-top: 10px;
+}
+.menu-img {
+  text-align: center;
+  filter: none;
+  margin-left: 300px;
+  margin-top: 10px;
+}
+.btn-menu {
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+}
+.btn {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+  color: lightslategray;
+}
+.btn-red {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+  color: lightslategray;
+  background-color: red;
+  color: white;
+}
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.me-cont {
+  display: flex;
+  flex-direction: row;
+}
+.m-img {
+  border-radius: 50px;
+  border: 5px solid lightgray;
+}
+.total-det {
+  display: flex;
+  flex-direction: row;
+}
+li {
+  list-style-type: disc;
+}
+.list-menu {
+  display: flex;
+  flex-direction: row;
+}
+.table-container {
+  background-image: url("https://gdurl.com/JN9Z");
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.table-head {
+  color: white;
+  font-family: "PT Sans Narrow, Sans Serif";
+  font-size: 30px;
+}
+.table-btn {
+  background-color: white;
+  color: orange;
+}
+
+.j-zigzag {
+  height: 124px;
+  width: 100%;
+  overflow: hidden;
+  z-index: 99;
+  margin-top: -124px;
+  opacity: 5;
+  background: linear-gradient(312deg, #ffffffe0 5px, #03030300 0) 0 5px,
+    linear-gradient(49deg, #ffffff 5px, #ffffff00 0) 0 5px;
+  background-position: left bottom;
+  background-repeat: repeat-x;
+  background-size: 20px 20px;
+  display: flex;
+}
+.chef-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.chef-card-details {
+  padding: 20px 5px;
+  display: flex;
+  flex-direction: row;
+}
+.chef-card-details img {
+  width: 100%;
+}
+.our-chefs {
+  min-height: 700px;
+}
+.our-chefs-header h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Playball", cursive;
+  color: orangered;
+  padding: 50px 0px 0px 0px;
+}
+.our-chefs-header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.chef-card-details h1 {
+  font-size: 18px;
+  color: #838383;
+  text-align: center;
+  padding: 20px 0px 10px 0px;
+  font-family: Oswald, sans-serif;
+}
+.chef-card-details p {
+  font-size: 15px;
+  color: #838383;
+  text-align: center;
+  padding: 0px 12px;
+}
+
+.blog-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-direction: column;
+}
+.blog-card img {
+  width: 100%;
+}
+.blog-card {
+  padding: 20px 10px;
+}
+.blog-card h1 {
+  font-size: 30px;
+  color: #393939;
+  text-align: center;
+  font-weight: 300;
+  padding: 20px 0px 10px 0px;
+  font-family: Oswald, sans-serif;
+}
+.blog-card hr {
+  width: 85px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 3px !important;
+  color: orangered;
+  opacity: 5;
+}
+.blog-card {
+  padding: 20px 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 16px 0px #7b7676;
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: row;
+}
+.blog-card-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+.bloag-header h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Playball", cursive;
+  color: orangered;
+  padding: 50px 0px 0px 0px;
+}
+.bloag-header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.blog {
+  min-height: 850px;
+  background-image: url("./images/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.gallery-header h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Playball", cursive;
+  color: orangered;
+  padding: 100px 0px 0px 0px;
+}
+.gallery-header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+.gallery {
+  min-height: 300px;
+}
+.i-zigzag {
+  height: 99px;
+  width: 100%;
+  overflow: hidden;
+  z-index: 99;
+  margin-top: -90px;
+  opacity: 5;
+  background: linear-gradient(139deg, #ffffffe0 5px, #03030300 0) 0 5px,
+    linear-gradient(219deg, #ffffff 5px, #030303 0) 0 5px;
+  background-position: left bottom;
+  background-repeat: repeat-x;
+  background-size: 20px 20px;
+}
+.mm {
+  font-size: 15px;
+  padding: 5px 10px;
+  color: orangered;
+  border-top: 3px solid orangered;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  padding-top: 10px;
+  padding-right: 7%;
+}
