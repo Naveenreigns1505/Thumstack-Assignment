@@ -1,320 +1,256 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="./index.css" />
-    <script src="./index.js"></script>
-  </head>
 
-  <body>
-    <div>
-      <nav class="nav-container">
-        <p class="email">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-envelope"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"
-            />
-          </svg>
-          <span class="em">Info@Restaurant.Com</span>
-        </p>
-        <p class="tele">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="1em"
-            viewBox="0 0 512 512"
-          >
-            <style>
-              svg {
-                fill: #d3d3d3;
-              }
-            </style>
-            <path
-              d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
-            />
-          </svg>
-          <span class="em"> Telephone: +18002345678 </span>
-        </p>
-        <div>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-facebook"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
-            />
-          </svg>
-          <i class="bi bi-twitter tw"></i>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./index.css" />
+  <script src="./index.js"></script>
+</head>
+
+<body>
+  <div>
+    <nav class="nav-container">
+      <p class="email">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope"
+          viewBox="0 0 16 16">
+          <path
+            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+        </svg>
+        <span class="em">Info@Restaurant.Com</span>
+      </p>
+      <p class="tele">
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+          <style>
+            svg {
+              fill: #d3d3d3;
+            }
+          </style>
+          <path
+            d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+        </svg>
+        <span class="em"> Telephone: +18002345678 </span>
+      </p>
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook fb"
+          viewBox="0 0 16 16">
+          <path
+            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" class="tw">
+          <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+          <style>
+            svg {
+              fill: #ffffff
+            }
+          </style>
+          <path
+            d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe gb"
+          viewBox="0 0 16 16">
+          <path
+            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z" />
+        </svg>
+        <h1 class="bee">Be</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wifi wi"
+          viewBox="0 0 16 16">
+          <path
+            d="M15.384 6.115a.485.485 0 0 0-.047-.736A12.444 12.444 0 0 0 8 3C5.259 3 2.723 3.882.663 5.379a.485.485 0 0 0-.048.736.518.518 0 0 0 .668.05A11.448 11.448 0 0 1 8 4c2.507 0 4.827.802 6.716 2.164.205.148.49.13.668-.049z" />
+          <path
+            d="M13.229 8.271a.482.482 0 0 0-.063-.745A9.455 9.455 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.576 1.336c.206.132.48.108.653-.065zm-2.183 2.183c.226-.226.185-.605-.1-.75A6.473 6.473 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.407.19.611.09A5.478 5.478 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.61-.091l.016-.015zM9.06 12.44c.196-.196.198-.52-.04-.66A1.99 1.99 0 0 0 8 11.5a1.99 1.99 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .707 0l.707-.707z" />
+        </svg>
+        <div class="book">
+          <button class="taba">BOOK A TABLE</button>
+        </div>
+      </div>
+    </nav>
+    <hr />
+    <div class="con">
+      <img src="https://gdurl.com/LV7g" class="ig" />
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navb">
+              <div class="navbar-nav mm">
+                <a class="nav-link disabled" aria-disabled="true">HOME</a>
+                <a class="nav-link disabled" aria-disabled="true">ABOUT US</a>
+                <a class="nav-link disabled" aria-disabled="true">OFFER</a>
+                <a class="nav-link disabled" aria-disabled="true">MENU</a>
+                <a class="nav-link disabled" aria-disabled="true">TEAM</a>
+                <a class="nav-link disabled" aria-disabled="true">BLOG</a>
+                <a class="nav-link disabled" aria-disabled="true">GALLERY</a>
+                <a class="nav-link disabled" aria-disabled="true">CONTACT</a>
+              </div>
+            </div>
+          </div>
         </div>
       </nav>
-      <hr />
-      <div class="con">
-        <img src="https://gdurl.com/LV7g" class="ig" />
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navb">
-                <div class="navbar-nav mm">
-                  <a class="nav-link disabled" aria-disabled="true">HOME</a>
-                  <a class="nav-link disabled" aria-disabled="true">ABOUT US</a>
-                  <a class="nav-link disabled" aria-disabled="true">OFFER</a>
-                  <a class="nav-link disabled" aria-disabled="true">MENU</a>
-                  <a class="nav-link disabled" aria-disabled="true">TEAM</a>
-                  <a class="nav-link disabled" aria-disabled="true">BLOG</a>
-                  <a class="nav-link disabled" aria-disabled="true">GALLERY</a>
-                  <a class="nav-link disabled" aria-disabled="true">CONTACT</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </nav>
-        <div
-          id="carouselExampleIndicators"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <ol class="carousel-indicators">
-            <li
-              data-target="#carouselExampleIndicators"
-              data-slide-to="0"
-              class="active"
-            ></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg"
-                class="d-block w-100"
-                alt="..."
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h1>Welcome To</h1>
-                <h2>DAWAT CAFE & RESTAURANT</h2>
-                <button>RESERVATION NOW</button>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="https://images.pexels.com/photos/1309593/pexels-photo-1309593.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                class="d-block w-100"
-                alt="..."
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h1>Our Menu's</h1>
-                <h2>SEE WHAT'S NEW TODAY</h2>
-                <button>TODAYS MENU</button>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="https://images.pexels.com/photos/691114/pexels-photo-691114.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                class="d-block w-100"
-                alt="..."
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h1>Get Ready</h1>
-                <h2>TO JOIN WITH US</h2>
-                <button>BOOK A TABLE</button>
-              </div>
-            </div>
-          </div>
-          <a
-            class="carousel-control-prev"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="story-background">
-      <h1 class="story-head">Our Story</h1>
-
-      <div class="in-cont">
-        <h1 class="m">M</h1>
-        <p class="story-para">
-          enc non elit libero. Quisque massa porta ut placerat lentesque non
-          <br />
-          diam. Nam convallis porta rhoncus. Maecenas varius eget turpis <br />
-          suscipit porta sapien tinc Mauris tempor libero fringilla orci vivrra
-          <br />
-          faucibue fringilla orci vivrra faucibus. Integer ullamcorper erat in
-          <br />
-          tellus efficitur, quis porta sapien tincidunt. Nunc mattis lectus sed
-          semper semper.
-        </p>
-        <p class="story-para">
-          Quisque sit amet turpis et ipsum elementum facilisis. Quisque sed
-          placerat libero. <br />
-          Pellentesque nec tellus sollicitudin, sollicitudin ligula non,
-          tristique nibh Donec <br />
-          vitae turpis sagittis, cursus nunc ac, aliquet nunc. Donec viverra vel
-          massa at <br />
-          posuere. Aliquam et fringilla augue consequat posuere sem, eu ornares
-          viverra <br />
-          veleso massa at posuere. Aliquam et fringilla augue
-        </p>
-      </div>
-      <img src="https://gdurl.com/42mq" class="sign" />
-    </div>
-    <div class="sp-pac-container">
-      <h1 sp-pac>Special Package</h1>
-      <img src="https://gdurl.com/o_TG" class="sp-img" />
-      <div
-        id="carouselExampleIndicators"
-        class="carousel slide"
-        data-ride="carousel"
-      >
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-          <li
-            data-target="#carouselExampleIndicators"
-            data-slide-to="0"
-            class="active"
-          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
+
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="https://gdurl.com/F3_8" class="d-block w-50" alt="..." />
-            <div class="carousel-text-container">
-              <div class="carousel-text bg-text">
-                <p>40% off for 9"-12" pizza - Wed, Thu, Friday only</p>
-                <p>Pizza 12 inch + 1 Side Dish + 1.5L Coke Bottle Only</p>
-                <p>From 209,000</p>
-                <a href="#" class="order-button">ORDER NOW</a>
-              </div>
+            <img src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Welcome To</h1>
+              <h2>DAWAT CAFE & RESTAURANT</h2>
+              <button>RESERVATION NOW</button>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="https://gdurl.com/JN9Z" class="d-block w-50" alt="..." />
-            <div class="carousel-text-container">
-              <div class="carousel-text bg-text">
-                <p>40% off for 9"-12" pizza - Wed, Thu, Friday only</p>
-                <p>Pizza 12 inch + 1 Side Dish + 1.5L Coke Bottle Only</p>
-                <p>From 209,000</p>
-                <a href="#" class="order-button">ORDER NOW</a>
-              </div>
+            <img
+              src="https://images.pexels.com/photos/1309593/pexels-photo-1309593.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Our Menu's</h1>
+              <h2>SEE WHAT'S NEW TODAY</h2>
+              <button>TODAYS MENU</button>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="https://gdurl.com/1-xn" class="d-block w-50" alt="..." />
-            <div class="carousel-text-container">
-              <div class="carousel-text bg-text">
-                <p>40% off for 9"-12" pizza - Wed, Thu, Friday only</p>
-                <p>Pizza 12 inch + 1 Side Dish + 1.5L Coke Bottle Only</p>
-                <p>From 209,000</p>
-                <a href="#" class="order-button">ORDER NOW</a>
-              </div>
+            <img
+              src="https://images.pexels.com/photos/691114/pexels-photo-691114.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Get Ready</h1>
+              <h2>TO JOIN WITH US</h2>
+              <button>BOOK A TABLE</button>
             </div>
           </div>
         </div>
-        <a
-          class="carousel-control-prev"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="prev"
-        >
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a
-          class="carousel-control-next"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="next"
-        >
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
       </div>
     </div>
+  </div>
 
-    <div class="menu-container">
-      <h1 class="menu-text">Today's Menu</h1>
-      <img src="https://gdurl.com/o_TG" class="menu-img" />
-      <div class="menu-btn">
-        <button class="btn">ALL</button>
-        <button class="btn">BREAKFAST</button>
-        <button class="btn">LUNCH</button>
-        <button class="btn">DINNER</button>
-        <button class="btn">COFFEE</button>
-        <button class="btn-red">SNACKS</button>
+  <div class="story-background">
+    <h1 class="story-head">Our Story</h1>
+
+    <div class="in-cont">
+      <h1 class="m">M</h1>
+      <p class="story-para">
+        enc non elit libero. Quisque massa porta ut placerat lentesque non
+        <br />
+        diam. Nam convallis porta rhoncus. Maecenas varius eget turpis <br />
+        suscipit porta sapien tinc Mauris tempor libero fringilla orci vivrra
+        <br />
+        faucibue fringilla orci vivrra faucibus. Integer ullamcorper erat in
+        <br />
+        tellus efficitur, quis porta sapien tincidunt. Nunc mattis lectus sed
+        semper semper.
+      </p>
+      <p class="story-para">
+        Quisque sit amet turpis et ipsum elementum facilisis. Quisque sed
+        placerat libero. <br />
+        Pellentesque nec tellus sollicitudin, sollicitudin ligula non,
+        tristique nibh Donec <br />
+        vitae turpis sagittis, cursus nunc ac, aliquet nunc. Donec viverra vel
+        massa at <br />
+        posuere. Aliquam et fringilla augue consequat posuere sem, eu ornares
+        viverra <br />
+        veleso massa at posuere. Aliquam et fringilla augue
+      </p>
+    </div>
+    <img src="https://gdurl.com/42mq" class="sign" />
+  </div>
+  <div class="sp-pac-container">
+    <h1 class="story-head">Special Package</h1>
+    <div class="sp-img-con">
+      <img src="https://gdurl.com/o_TG" class="sp-img" />
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active pac-conta">
+          <img src="https://gdurl.com/F3_8" class="d-block w-50" alt="..." class="pc-img" />
+          <div class="carousel-text-container">
+            <div class="carousel-text bg-text">
+              <p>40% off for 9"-12" pizza - Wed, Thu, Friday only</p>
+              <p>Pizza 12 inch + 1 Side Dish + 1.5L Coke Bottle Only</p>
+              <p>From 209,000</p>
+              <a href="#" class="order-button">ORDER NOW</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://gdurl.com/JN9Z" class="d-block w-50" alt="..." />
+          <div class="carousel-text-container">
+            <div class="carousel-text bg-text">
+              <p>40% off for 9"-12" pizza - Wed, Thu, Friday only</p>
+              <p>Pizza 12 inch + 1 Side Dish + 1.5L Coke Bottle Only</p>
+              <p>From 209,000</p>
+              <a href="#" class="order-button">ORDER NOW</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://gdurl.com/1-xn" class="d-block w-50" alt="..." />
+          <div class="carousel-text-container">
+            <div class="carousel-text bg-text">
+              <p>40% off for 9"-12" pizza - Wed, Thu, Friday only</p>
+              <p>Pizza 12 inch + 1 Side Dish + 1.5L Coke Bottle Only</p>
+              <p>From 209,000</p>
+              <a href="#" class="order-button">ORDER NOW</a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="me-cont">
-        <div class="total-det">
-          <img src="https://gdurl.com/6V8Y" class="m-img" />
-          <h1>Cupcake Recipes</h1>
-          <div class="list-menu">
-            <ul>
-              <li>Juice Fruit</li>
-              <li>Vegetable</li>
-              <li>Tomato</li>
-            </ul>
-            <ul>
-              <li>Chicken</li>
-              <li>Milk</li>
-              <li>Chilli</li>
-            </ul>
-            <ul>
-              <li>Cherry</li>
-              <li>Potato</li>
-              <li>Sesame</li>
-            </ul>
-          </div>
-        </div>
-        <div class="total-det">
-          <img src="https://gdurl.com/j7_D" class="m-img" />
-          <h1>Cupcake Recipes</h1>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="menu-container">
+    <h1 class="menu-text">Today's Menu</h1>
+    <img src="https://gdurl.com/o_TG" class="menu-img" />
+    <div class="menu-btn">
+      <button class="btn">ALL</button>
+      <button class="btn">BREAKFAST</button>
+      <button class="btn">LUNCH</button>
+      <button class="btn">DINNER</button>
+      <button class="btn">COFFEE</button>
+      <button class="btn-red">SNACKS</button>
+    </div>
+    <div class="me-cont">
+      <div class="total-det">
+        <img src="https://gdurl.com/6V8Y" class="m-img" />
+        <div class="cup-cont">
+          <h1 class="cup-text">Cupcake Recipes</h1>
           <div class="list-menu">
             <ul>
               <li>Juice Fruit</li>
@@ -334,31 +270,10 @@
           </div>
         </div>
       </div>
-      <div class="me-cont">
-        <div class="total-det">
-          <img src="https://gdurl.com/FEzT" class="m-img" />
-          <h1>Cupcake Recipes</h1>
-          <div class="list-menu">
-            <ul>
-              <li>Juice Fruit</li>
-              <li>Vegetable</li>
-              <li>Tomato</li>
-            </ul>
-            <ul>
-              <li>Chicken</li>
-              <li>Milk</li>
-              <li>Chilli</li>
-            </ul>
-            <ul>
-              <li>Cherry</li>
-              <li>Potato</li>
-              <li>Sesame</li>
-            </ul>
-          </div>
-        </div>
-        <div class="total-det">
-          <img src="https://gdurl.com/fW_Q" class="m-img" />
-          <h1>Cupcake Recipes</h1>
+      <div class="total-det">
+        <img src="https://gdurl.com/j7_D" class="m-img" />
+        <div class="cup-cont">
+          <h1 class="cup-text">Cupcake Recipes</h1>
           <div class="list-menu">
             <ul>
               <li>Juice Fruit</li>
@@ -379,141 +294,224 @@
         </div>
       </div>
     </div>
-
-    <div class="table-container">
-      <h1 class="table-head">BOOK A TABLE NOW !</h1>
-      <button class="table-btn">BOOK NOW</button>
-    </div>
-
-    <div class="j-zigzag"></div>
-    <div id="Team" class="our-chefs">
-      <div class="container">
-        <div class="row">
-          <div class="our-chefs-header">
-            <h1>Our Chefs</h1>
-            <img src="https://gdurl.com/o_TG" alt="separator" />
+    <div class="me-cont">
+      <div class="total-det">
+        <img src="https://gdurl.com/FEzT" class="m-img" />
+        <div class="cup-cont">
+          <h1 class="cup-text">Cupcake Recipes</h1>
+          <div class="list-menu">
+            <ul>
+              <li>Juice Fruit</li>
+              <li>Vegetable</li>
+              <li>Tomato</li>
+            </ul>
+            <ul>
+              <li>Chicken</li>
+              <li>Milk</li>
+              <li>Chilli</li>
+            </ul>
+            <ul>
+              <li>Cherry</li>
+              <li>Potato</li>
+              <li>Sesame</li>
+            </ul>
           </div>
-          <div class="chef-card">
-            <div class="chef-card-details">
-              <img src="https://gdurl.com/6ZLp" alt="team" />
-              <h1>Mark Angellia</h1>
-              <p>Modi consequatur ipsam expedita.</p>
-            </div>
-            <div class="chef-card-details">
-              <img src="https://gdurl.com/6zDL" alt="team" />
-              <h1>Angel Meskat</h1>
-              <p>Modi consequatur ipsam expedita.</p>
-            </div>
-            <div class="chef-card-details">
-              <img src="https://gdurl.com/CLAE" alt="team" />
-              <h1>John doe</h1>
-              <p>Modi consequatur ipsam expedita.</p>
-            </div>
-            <div class="chef-card-details">
-              <img src="https://gdurl.com/2NCX" alt="team" />
-              <h1>Angel D Maria</h1>
-              <p>Modi consequatur ipsam expedita.</p>
-            </div>
-            <div class="chef-card-details">
-              <img src="https://gdurl.com/sRz6" alt="team" />
-              <h1>Park Ji Sung</h1>
-              <p>Modi consequatur ipsam expedita.</p>
-            </div>
+        </div>
+      </div>
+      <div class="total-det">
+        <img src="https://gdurl.com/fW_Q" class="m-img" />
+        <div class="cup-cont">
+          <h1 class="cup-text">Cupcake Recipes</h1>
+          <div class="list-menu">
+            <ul>
+              <li>Juice Fruit</li>
+              <li>Vegetable</li>
+              <li>Tomato</li>
+            </ul>
+            <ul>
+              <li>Chicken</li>
+              <li>Milk</li>
+              <li>Chilli</li>
+            </ul>
+            <ul>
+              <li>Cherry</li>
+              <li>Potato</li>
+              <li>Sesame</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="i-zigzag"></div>
-    <div class="blog">
-      <div class="bloag-header">
-        <h1>Latest News</h1>
-        <img src="https://gdurl.com/o_TG" alt="separator" />
+  <div class="table-container">
+    <h1 class="table-head">BOOK A TABLE NOW !</h1>
+    <button class="table-btn">BOOK NOW</button>
+  </div>
+
+  <div class="j-zigzag"></div>
+  <div id="Team" class="our-chefs">
+    <div class="container">
+      <div class="row">
+        <div class="our-chefs-header">
+          <h1 class="chef-head">Our Chefs</h1>
+          <img src="https://gdurl.com/o_TG" alt="separator" />
+        </div>
+        <div class="chef-card">
+          <div class="chef-card-details">
+            <img src="https://gdurl.com/6ZLp" alt="team" />
+            <h1>Mark Angellia</h1>
+            <p>Modi consequatur ipsam expedita.</p>
+          </div>
+          <div class="chef-card-details">
+            <img src="https://gdurl.com/6zDL" alt="team" />
+            <h1>Angel Meskat</h1>
+            <p>Modi consequatur ipsam expedita.</p>
+          </div>
+          <div class="chef-card-details">
+            <img src="https://gdurl.com/CLAE" alt="team" />
+            <h1>John doe</h1>
+            <p>Modi consequatur ipsam expedita.</p>
+          </div>
+          <div class="chef-card-details">
+            <img src="https://gdurl.com/2NCX" alt="team" />
+            <h1>Angel D Maria</h1>
+            <p>Modi consequatur ipsam expedita.</p>
+          </div>
+          <div class="chef-card-details">
+            <img src="https://gdurl.com/sRz6" alt="team" />
+            <h1>Park Ji Sung</h1>
+            <p>Modi consequatur ipsam expedita.</p>
+          </div>
+        </div>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="blog-details">
-            <div class="blog-card">
-              <img src="https://gdurl.com/UdsQ" alt="blog" />
-              <h1>Resturant Welcome Day Meetup</h1>
-              <hr />
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Distinctio quaerat expedita fugaquidem.
-              </p>
-              <div class="blog-card-bottom">
-                <div class="date">
-                  <p>07-09-2021</p>
-                </div>
-                <div class="comment">
-                  <p>5 Comments</p>
-                </div>
+    </div>
+  </div>
+
+  <div class="i-zigzag"></div>
+  <div class="blog">
+    <div class="bloag-header">
+      <h1>Latest News</h1>
+      <img src="https://gdurl.com/o_TG" alt="separator" />
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="blog-details">
+          <div class="blog-card">
+            <img src="https://gdurl.com/UdsQ" alt="blog" />
+            <h1 class="bl-head">Resturant Welcome Day Meetup</h1>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Distinctio quaerat expedita fugaquidem.
+            </p>
+            <div class="blog-card-bottom">
+              <div class="date">
+                <p>24 Februaru, 2017</p>
+              </div>
+              <p class="dash"> - </p>
+              <div class="comment">
+                <p>5 Comments</p>
               </div>
             </div>
-            <div class="blog-card">
-              <img src="https://gdurl.com/0WIB" alt="blog" />
-              <h1>Received First day First Reservation</h1>
-              <hr />
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Distinctio quaerat expedita fugaquidem.
-              </p>
-              <div class="blog-card-bottom">
-                <div class="date">
-                  <p>07-09-2021</p>
-                </div>
-                <div class="comment">
-                  <p>5 Comments</p>
-                </div>
+          </div>
+          <div class="blog-card">
+            <img src="https://gdurl.com/0WIB" alt="blog" />
+            <h1>Received First day First Reservation</h1>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Distinctio quaerat expedita fugaquidem.
+            </p>
+            <div class="blog-card-bottom">
+              <div class="date">
+                <p>24 Februaru, 2017</p>
+              </div>
+              <p class="dash"> - </p>
+              <div class="comment">
+                <p>5 Comments</p>
               </div>
             </div>
-            <div class="blog-card">
-              <img src="https://gdurl.com/YBc9" alt="blog" />
-              <h1>Home to Get your Home Delivery ?</h1>
-              <hr />
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Distinctio quaerat expedita fugaquidem.
-              </p>
-              <div class="blog-card-bottom">
-                <div class="date">
-                  <p>07-09-2021</p>
-                </div>
-                <div class="comment">
-                  <p>5 Comments</p>
-                </div>
+          </div>
+          <div class="blog-card">
+            <img src="https://gdurl.com/YBc9" alt="blog" />
+            <h1>Home to Get your Home Delivery ?</h1>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Distinctio quaerat expedita fugaquidem.
+            </p>
+            <div class="blog-card-bottom">
+              <div class="date">
+                <p>24 Februaru, 2017</p>
+              </div>
+              <p class="dash"> - </p>
+              <div class="comment">
+                <p>5 Comments</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="j-zigzag"></div>
-    <div id="Gallery" class="gallery">
-      <div class="container">
-        <div class="row">
-          <div class="gallery-header">
-            <h1>Gallery</h1>
-            <img src="https://gdurl.com/o_TG" alt="separator" />
-          </div>
+  <div class="gal-cont"></div>
+  <div id="Gallery" class="gallery">
+    <div class="container">
+      <div class="row">
+        <div class="gallery-header">
+          <h1>Gallery</h1>
+          <img src="https://gdurl.com/o_TG" alt="separator" />
         </div>
       </div>
     </div>
-    <div class="i-zigzag"></div>
-    <div id="Contact" class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="footer-details">
-            <img src="https://gdurl.com/LV7g" alt="logo" />
-            <h3>
-              20. floor, queenslad victoria building, 60 california street,
-              california USA
-            </h3>
+  </div>
+  <hr />
+  <div class="footer-bacground"></div>
+  <div id="Contact" class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-details">
+          <img src="https://gdurl.com/LV7g" alt="logo" class="foot-img" />
+          <h3 class="f-head">
+            20. floor, queenslad victoria building, 60 california street,
+            california USA
+          </h3>
+          <div class="f-bg">
             <p>Hello@dawat.com</p>
             <h4>+ 88 000 0000 1111</h4>
           </div>
-          <div class="social-icon">
+        </div>
+        <div class="whole">
+          <div class="sc">
+            <div class="social-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-facebook fb" viewBox="0 0 16 16">
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" class="tw">
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <style>
+                  svg {
+                    fill: #ffffff
+                  }
+                </style>
+                <path
+                  d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe gb"
+                viewBox="0 0 16 16">
+                <path
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z" />
+              </svg>
+            </div>
+            <br />
+          </div>
+          <br />
+          <div class="fat-s">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fas fa-globe"></i></a>
@@ -524,14 +522,14 @@
           </div>
           <div class="copyright">
             <div class="copyright-details">
-              <div class="details-copyright-footer">
-                <a href="#">Tearms of use</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Sitemap</a>
-                <a href="#">Contact</a>
+              <div class="d-f">
+                <a href="#" class="f">Tearms of use</a>
+                <a href="#" class="f">Privacy Policy</a>
+                <a href="#" class="f">Sitemap</a>
+                <a href="#" class="f">Contact</a>
               </div>
               <div class="copyright-text">
-                <p>
+                <p class="p20">
                   @2021 <span>dawat resturant</span> Developed By Sourav Gupta
                 </p>
               </div>
@@ -539,9 +537,11 @@
           </div>
         </div>
       </div>
-      <button onclick="topFunction()" id="scroolbtn" title="top">
-        <i class="fas fa-arrow-up"></i>
-      </button>
     </div>
-  </body>
+    <button onclick="topFunction()" id="scroolbtn" title="top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </div>
+</body>
+
 </html>
